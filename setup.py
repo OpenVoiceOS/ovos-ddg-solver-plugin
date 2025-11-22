@@ -73,7 +73,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     packages=[IMPORT_NAME],
-    package_data={'': package_files(PKG_NAME)},
+    package_data={'': package_files(IMPORT_NAME)},
     include_package_data=True,
     install_requires=get_requirements("requirements.txt"),
     keywords='ovos ddg search plugin',
