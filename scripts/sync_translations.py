@@ -6,7 +6,7 @@ import json
 from os.path import dirname
 import os
 
-locale = f"{dirname(dirname(__file__))}/locale"
+locale = f"{dirname(dirname(__file__))}/ovos_ddg_solver/locale"
 tx = f"{dirname(dirname(__file__))}/translations"
 
 
