@@ -6,7 +6,7 @@ from setuptools import setup
 
 URL="https://github.com/OpenVoiceOS/ovos-ddg-solver-plugin"
 PKG_NAME = URL.split("/")[-1]
-IMPORT_NAME = PKG_NAME.replace("-", "_")
+IMPORT_NAME = "ovos_ddg_solver"
 
 PERSONA_ENTRY_POINT = f'DuckDuckGo={IMPORT_NAME}:DDG_PERSONA'
 SOLVER_ENTRY_POINT = f'ovos-solver-plugin-ddg={IMPORT_NAME}:DuckDuckGoSolver'
